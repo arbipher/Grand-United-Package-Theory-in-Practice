@@ -6,13 +6,16 @@ on:
       - main
   pull_request:
 
+permissions:
+  contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
 
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
