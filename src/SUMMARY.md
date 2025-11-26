@@ -1,4 +1,4 @@
-# Summary
+# Grand Unified Package Theory in Practice
 
 [Summary](SUMMARY.md) This Page
 
