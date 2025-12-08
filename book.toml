@@ -2,3 +2,6 @@
 title = "Grand Unified Package Theory in Practice"
 authors = ["Shiwei Weng"]
 language = "en"
+
+[output.html]
+mathjax-support = true
